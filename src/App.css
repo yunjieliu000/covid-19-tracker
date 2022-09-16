@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+}
+
+h1{
+  color: #cc1034;
+}
+
+body{
+  background-color: #f5f6fa;
+}
+
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app_left{
+  flex: 0.9 !important;
+}
+
+.app_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app_stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app_graph_text{
+  margin-top: 2rem;
+}
+
+.app_graph{
+  margin-top: 5rem;
+}
+
+@media(max-width: 990px){
+  .app{
+    flex-direction: column;
+  }
+}
